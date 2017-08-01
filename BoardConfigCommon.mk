@@ -19,7 +19,10 @@ DEVICE_COMMON_PATH := device/lge/g6-common
 # inherit from common msm8996
 -include device/lge/msm8996-common/BoardConfigCommon.mk
 
+TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_COMMON_PATH)/include
+
 # Display
+TARGET_PROVIDES_EXTRA_HDR_FUNCTION := true
 TARGET_USES_HWC2 := false # drop to HWC1 on lucye for HDR functionality
 
 # Lights
