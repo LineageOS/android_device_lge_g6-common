@@ -19,6 +19,9 @@ DEVICE_COMMON_PATH := device/lge/g6-common
 # inherit from common msm8996
 -include device/lge/msm8996-common/BoardConfigCommon.mk
 
+# Display
+TARGET_PROVIDES_EXTRA_HDR_FUNCTION := true
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
