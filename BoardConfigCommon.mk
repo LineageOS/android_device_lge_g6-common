@@ -21,7 +21,7 @@ DEVICE_COMMON_PATH := device/lge/g6-common
 
 # Display
 TARGET_HAS_HDR_DISPLAY := true
-TARGET_HAS_WIDE_COLOR_DISPLAY := true
+TARGET_HAS_WIDE_COLOR_DISPLAY := false # Disabled for now until color profiles actually work on 8996
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
