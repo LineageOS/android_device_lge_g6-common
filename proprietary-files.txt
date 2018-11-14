@@ -50,9 +50,7 @@ vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/libmmcamera_brcf016gwz_hi553_eeprom.so
 vendor/lib/libmmcamera_dbg.so
 vendor/lib/libmmcamera_dummyalgo.so
-vendor/lib/libmmcamera_edgesmooth_lib.so
 vendor/lib/libmmcamera_eebinparse.so
-vendor/lib/libmmcamera_eeprom_checksum.so
 vendor/lib/libmmcamera_eeprom_util.so
 vendor/lib/libmmcamera_eztune_module.so
 vendor/lib/libmmcamera_facedetection_lib.so
@@ -123,7 +121,6 @@ vendor/lib/libmmcamera_ppbase_module.so
 vendor/lib/libmmcamera_ppeiscore.so
 vendor/lib/libmmcamera_quadracfa.so
 vendor/lib/libmmcamera_s5k3m3.so
-vendor/lib/libmmcamera_sat_dummy_lib.so
 vendor/lib/libmmcamera_sw2d_lib.so
 vendor/lib/libmmcamera_thread_services.so
 vendor/lib/libmmcamera_tintless_algo.so
