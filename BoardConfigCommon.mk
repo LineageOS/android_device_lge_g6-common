@@ -40,8 +40,5 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_COMMON_PATH)/board-info.txt
 # SELinux policies
 BOARD_SEPOLICY_DIRS += $(DEVICE_COMMON_PATH)/sepolicy
 
-# Treble
-PRODUCT_SHIPPING_API_LEVEL := 24
-
 # inherit from the proprietary version
 -include vendor/lge/g6-common/BoardConfigVendor.mk
