@@ -41,4 +41,4 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_COMMON_PATH)/board-info.txt
 BOARD_SEPOLICY_DIRS += $(DEVICE_COMMON_PATH)/sepolicy
 
 # inherit from the proprietary version
--include vendor/lge/g6-common/BoardConfigVendor.mk
+include vendor/lge/g6-common/BoardConfigVendor.mk
