@@ -19,6 +19,9 @@ DEVICE_COMMON_PATH := device/lge/g6-common
 # inherit from common msm8996
 -include device/lge/msm8996-common/BoardConfigCommon.mk
 
+# Camera
+MALLOC_SVELTE_FOR_LIBC32 := true
+
 # Display
 TARGET_HAS_HDR_DISPLAY := true
 TARGET_HAS_WIDE_COLOR_DISPLAY := true
