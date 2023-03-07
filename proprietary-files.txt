@@ -1,4 +1,4 @@
-# Audio ACBD
+# Audio - ACBD
 vendor/etc/acdbdata/Bluetooth_cal.acdb
 vendor/etc/acdbdata/General_cal.acdb
 vendor/etc/acdbdata/Global_cal.acdb
@@ -18,12 +18,12 @@ vendor/etc/acdbdata/v2/Speaker_cal.acdb
 vendor/bin/mm-qcamera-app
 vendor/bin/mm-qcamera-daemon
 vendor/lib/hw/camera.msm8996.so
-vendor/lib/libarcsoft_beauty_shot.so
-vendor/lib/libarcsoft_object_tracking.so
 vendor/lib/libAutoContrast.so
-vendor/lib/libbwfocuspeaking.so
 vendor/lib/libCmcPdaf.so
 vendor/lib/libSJFingerDetect.so
+vendor/lib/libarcsoft_beauty_shot.so
+vendor/lib/libarcsoft_object_tracking.so
+vendor/lib/libbwfocuspeaking.so
 vendor/lib/libfilm_emulation.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libiris_lc898123f40.so
@@ -149,11 +149,11 @@ vendor/lib64/libmmcamera_dbg.so
 vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 
-# Camera actuators
+# Camera - Actuators
 vendor/lib/libactuator_ak7371.so
 vendor/lib/libactuator_bu24333gwl.so
 
-# Camera AE/AWB
+# Camera - AE/AWB
 vendor/lib/liblg_ae_parameter_4k_preview_2P7.so
 vendor/lib/liblg_ae_parameter_4k_preview_hi553_cowell.so
 vendor/lib/liblg_ae_parameter_4k_preview_hi553_lgit.so
@@ -176,6 +176,18 @@ vendor/lib/liblg_ae_parameter_4k_video_imx258_lgit.so
 vendor/lib/liblg_ae_parameter_4k_video_imx258_wide_imtech.so
 vendor/lib/liblg_ae_parameter_4k_video_imx258_wide_lgit.so
 vendor/lib/liblg_ae_parameter_4k_video_imx298.so
+vendor/lib/liblg_ae_parameter_binning_4k_imx258_imtech.so
+vendor/lib/liblg_ae_parameter_binning_4k_imx258_lgit.so
+vendor/lib/liblg_ae_parameter_binning_4k_imx258_wide_imtech.so
+vendor/lib/liblg_ae_parameter_binning_4k_imx258_wide_lgit.so
+vendor/lib/liblg_ae_parameter_binning_video_imx258_imtech.so
+vendor/lib/liblg_ae_parameter_binning_video_imx258_lgit.so
+vendor/lib/liblg_ae_parameter_binning_video_imx258_wide_imtech.so
+vendor/lib/liblg_ae_parameter_binning_video_imx258_wide_lgit.so
+vendor/lib/liblg_ae_parameter_binning_zsl_imx258_imtech.so
+vendor/lib/liblg_ae_parameter_binning_zsl_imx258_lgit.so
+vendor/lib/liblg_ae_parameter_binning_zsl_imx258_wide_imtech.so
+vendor/lib/liblg_ae_parameter_binning_zsl_imx258_wide_lgit.so
 vendor/lib/liblg_ae_parameter_default_preview_2P7.so
 vendor/lib/liblg_ae_parameter_default_preview_hi553_cowell.so
 vendor/lib/liblg_ae_parameter_default_preview_hi553_lgit.so
@@ -356,6 +368,9 @@ vendor/lib/liblg_awb_parameter_imx234_zsl_preview.so
 vendor/lib/liblg_awb_parameter_imx234_zsl_video.so
 vendor/lib/liblg_awb_parameter_imx258_imtech_4k_preview.so
 vendor/lib/liblg_awb_parameter_imx258_imtech_4k_video.so
+vendor/lib/liblg_awb_parameter_imx258_imtech_binning_4k.so
+vendor/lib/liblg_awb_parameter_imx258_imtech_binning_video.so
+vendor/lib/liblg_awb_parameter_imx258_imtech_binning_zsl.so
 vendor/lib/liblg_awb_parameter_imx258_imtech_default_preview.so
 vendor/lib/liblg_awb_parameter_imx258_imtech_default_video.so
 vendor/lib/liblg_awb_parameter_imx258_imtech_hdr_snapshot.so
@@ -369,6 +384,9 @@ vendor/lib/liblg_awb_parameter_imx258_imtech_zsl_preview.so
 vendor/lib/liblg_awb_parameter_imx258_imtech_zsl_video.so
 vendor/lib/liblg_awb_parameter_imx258_lgit_4k_preview.so
 vendor/lib/liblg_awb_parameter_imx258_lgit_4k_video.so
+vendor/lib/liblg_awb_parameter_imx258_lgit_binning_4k.so
+vendor/lib/liblg_awb_parameter_imx258_lgit_binning_video.so
+vendor/lib/liblg_awb_parameter_imx258_lgit_binning_zsl.so
 vendor/lib/liblg_awb_parameter_imx258_lgit_default_preview.so
 vendor/lib/liblg_awb_parameter_imx258_lgit_default_video.so
 vendor/lib/liblg_awb_parameter_imx258_lgit_hdr_snapshot.so
@@ -382,6 +400,9 @@ vendor/lib/liblg_awb_parameter_imx258_lgit_zsl_preview.so
 vendor/lib/liblg_awb_parameter_imx258_lgit_zsl_video.so
 vendor/lib/liblg_awb_parameter_imx258_wide_imtech_4k_preview.so
 vendor/lib/liblg_awb_parameter_imx258_wide_imtech_4k_video.so
+vendor/lib/liblg_awb_parameter_imx258_wide_imtech_binning_4k.so
+vendor/lib/liblg_awb_parameter_imx258_wide_imtech_binning_video.so
+vendor/lib/liblg_awb_parameter_imx258_wide_imtech_binning_zsl.so
 vendor/lib/liblg_awb_parameter_imx258_wide_imtech_default_preview.so
 vendor/lib/liblg_awb_parameter_imx258_wide_imtech_default_video.so
 vendor/lib/liblg_awb_parameter_imx258_wide_imtech_hdr_snapshot.so
@@ -395,6 +416,9 @@ vendor/lib/liblg_awb_parameter_imx258_wide_imtech_zsl_preview.so
 vendor/lib/liblg_awb_parameter_imx258_wide_imtech_zsl_video.so
 vendor/lib/liblg_awb_parameter_imx258_wide_lgit_4k_preview.so
 vendor/lib/liblg_awb_parameter_imx258_wide_lgit_4k_video.so
+vendor/lib/liblg_awb_parameter_imx258_wide_lgit_binning_4k.so
+vendor/lib/liblg_awb_parameter_imx258_wide_lgit_binning_video.so
+vendor/lib/liblg_awb_parameter_imx258_wide_lgit_binning_zsl.so
 vendor/lib/liblg_awb_parameter_imx258_wide_lgit_default_preview.so
 vendor/lib/liblg_awb_parameter_imx258_wide_lgit_default_video.so
 vendor/lib/liblg_awb_parameter_imx258_wide_lgit_hdr_snapshot.so
@@ -419,34 +443,10 @@ vendor/lib/liblg_awb_parameter_imx298_panorama.so
 vendor/lib/liblg_awb_parameter_imx298_raw_hdr.so
 vendor/lib/liblg_awb_parameter_imx298_zsl_preview.so
 vendor/lib/liblg_awb_parameter_imx298_zsl_video.so
-vendor/lib/liblg_ae_parameter_binning_4k_imx258_imtech.so
-vendor/lib/liblg_ae_parameter_binning_4k_imx258_lgit.so
-vendor/lib/liblg_ae_parameter_binning_4k_imx258_wide_imtech.so
-vendor/lib/liblg_ae_parameter_binning_4k_imx258_wide_lgit.so
-vendor/lib/liblg_ae_parameter_binning_video_imx258_imtech.so
-vendor/lib/liblg_ae_parameter_binning_video_imx258_lgit.so
-vendor/lib/liblg_ae_parameter_binning_video_imx258_wide_imtech.so
-vendor/lib/liblg_ae_parameter_binning_video_imx258_wide_lgit.so
-vendor/lib/liblg_ae_parameter_binning_zsl_imx258_imtech.so
-vendor/lib/liblg_ae_parameter_binning_zsl_imx258_lgit.so
-vendor/lib/liblg_ae_parameter_binning_zsl_imx258_wide_imtech.so
-vendor/lib/liblg_ae_parameter_binning_zsl_imx258_wide_lgit.so
-vendor/lib/liblg_awb_parameter_imx258_imtech_binning_4k.so
-vendor/lib/liblg_awb_parameter_imx258_imtech_binning_video.so
-vendor/lib/liblg_awb_parameter_imx258_imtech_binning_zsl.so
-vendor/lib/liblg_awb_parameter_imx258_lgit_binning_4k.so
-vendor/lib/liblg_awb_parameter_imx258_lgit_binning_video.so
-vendor/lib/liblg_awb_parameter_imx258_lgit_binning_zsl.so
-vendor/lib/liblg_awb_parameter_imx258_wide_imtech_binning_4k.so
-vendor/lib/liblg_awb_parameter_imx258_wide_imtech_binning_video.so
-vendor/lib/liblg_awb_parameter_imx258_wide_imtech_binning_zsl.so
-vendor/lib/liblg_awb_parameter_imx258_wide_lgit_binning_4k.so
-vendor/lib/liblg_awb_parameter_imx258_wide_lgit_binning_video.so
-vendor/lib/liblg_awb_parameter_imx258_wide_lgit_binning_zsl.so
 vendor/lib/liblgae_main.so
 vendor/lib/liblgawb_main.so
 
-# Camera chromatix
+# Camera - Chromatix
 vendor/lib/libchromatix_csidtg_common.so
 vendor/lib/libchromatix_csidtg_cpp_preview.so
 vendor/lib/libchromatix_csidtg_postproc.so
@@ -454,6 +454,7 @@ vendor/lib/libchromatix_csidtg_preview.so
 vendor/lib/libchromatix_csidtg_zsl_preview.so
 vendor/lib/libchromatix_hi553_cowell_3a_vt.so
 vendor/lib/libchromatix_hi553_cowell_common.so
+vendor/lib/libchromatix_hi553_cowell_cpp_face_unlock.so
 vendor/lib/libchromatix_hi553_cowell_cpp_liveshot.so
 vendor/lib/libchromatix_hi553_cowell_cpp_preview.so
 vendor/lib/libchromatix_hi553_cowell_cpp_snapshot.so
@@ -461,6 +462,8 @@ vendor/lib/libchromatix_hi553_cowell_cpp_video.so
 vendor/lib/libchromatix_hi553_cowell_cpp_vt.so
 vendor/lib/libchromatix_hi553_cowell_default_preview.so
 vendor/lib/libchromatix_hi553_cowell_default_video.so
+vendor/lib/libchromatix_hi553_cowell_face_unlock.so
+vendor/lib/libchromatix_hi553_cowell_face_unlock_preview.so
 vendor/lib/libchromatix_hi553_cowell_isp_vt.so
 vendor/lib/libchromatix_hi553_cowell_postproc.so
 vendor/lib/libchromatix_hi553_cowell_preview.so
@@ -470,6 +473,7 @@ vendor/lib/libchromatix_hi553_cowell_zsl_preview.so
 vendor/lib/libchromatix_hi553_cowell_zsl_video.so
 vendor/lib/libchromatix_hi553_lgit_3a_vt.so
 vendor/lib/libchromatix_hi553_lgit_common.so
+vendor/lib/libchromatix_hi553_lgit_cpp_face_unlock.so
 vendor/lib/libchromatix_hi553_lgit_cpp_liveshot.so
 vendor/lib/libchromatix_hi553_lgit_cpp_preview.so
 vendor/lib/libchromatix_hi553_lgit_cpp_snapshot.so
@@ -477,6 +481,8 @@ vendor/lib/libchromatix_hi553_lgit_cpp_video.so
 vendor/lib/libchromatix_hi553_lgit_cpp_vt.so
 vendor/lib/libchromatix_hi553_lgit_default_preview.so
 vendor/lib/libchromatix_hi553_lgit_default_video.so
+vendor/lib/libchromatix_hi553_lgit_face_unlock.so
+vendor/lib/libchromatix_hi553_lgit_face_unlock_preview.so
 vendor/lib/libchromatix_hi553_lgit_isp_vt.so
 vendor/lib/libchromatix_hi553_lgit_postproc.so
 vendor/lib/libchromatix_hi553_lgit_preview.so
@@ -486,15 +492,21 @@ vendor/lib/libchromatix_hi553_lgit_zsl_preview.so
 vendor/lib/libchromatix_hi553_lgit_zsl_video.so
 vendor/lib/libchromatix_imx258_imtech_4k_preview_bu64244gwz.so
 vendor/lib/libchromatix_imx258_imtech_4k_video_bu64244gwz.so
+vendor/lib/libchromatix_imx258_imtech_binning_4k_3a.so
+vendor/lib/libchromatix_imx258_imtech_binning_video_3a.so
+vendor/lib/libchromatix_imx258_imtech_binning_zsl_3a.so
 vendor/lib/libchromatix_imx258_imtech_common.so
 vendor/lib/libchromatix_imx258_imtech_cpp_hfr_120.so
 vendor/lib/libchromatix_imx258_imtech_cpp_hfr_60.so
 vendor/lib/libchromatix_imx258_imtech_cpp_liveshot.so
 vendor/lib/libchromatix_imx258_imtech_cpp_nzsl.so
 vendor/lib/libchromatix_imx258_imtech_cpp_preview.so
+vendor/lib/libchromatix_imx258_imtech_cpp_preview_binning.so
 vendor/lib/libchromatix_imx258_imtech_cpp_snapshot.so
+vendor/lib/libchromatix_imx258_imtech_cpp_snapshot_binning.so
 vendor/lib/libchromatix_imx258_imtech_cpp_video.so
 vendor/lib/libchromatix_imx258_imtech_cpp_video_4k.so
+vendor/lib/libchromatix_imx258_imtech_cpp_video_binning.so
 vendor/lib/libchromatix_imx258_imtech_default_preview_bu64244gwz.so
 vendor/lib/libchromatix_imx258_imtech_default_video.so
 vendor/lib/libchromatix_imx258_imtech_default_video_bu64244gwz.so
@@ -513,20 +525,28 @@ vendor/lib/libchromatix_imx258_imtech_panorama_preview.so
 vendor/lib/libchromatix_imx258_imtech_postproc.so
 vendor/lib/libchromatix_imx258_imtech_preview.so
 vendor/lib/libchromatix_imx258_imtech_snapshot.so
+vendor/lib/libchromatix_imx258_imtech_snapshot_binning.so
 vendor/lib/libchromatix_imx258_imtech_video_4k.so
+vendor/lib/libchromatix_imx258_imtech_video_binning.so
 vendor/lib/libchromatix_imx258_imtech_zsl_preview_bu64244gwz.so
 vendor/lib/libchromatix_imx258_imtech_zsl_video_bu64244gwz.so
 vendor/lib/libchromatix_imx258_lgit_4k_preview_bu64244gwz.so
 vendor/lib/libchromatix_imx258_lgit_4k_video_bu64244gwz.so
+vendor/lib/libchromatix_imx258_lgit_binning_4k_3a.so
+vendor/lib/libchromatix_imx258_lgit_binning_video_3a.so
+vendor/lib/libchromatix_imx258_lgit_binning_zsl_3a.so
 vendor/lib/libchromatix_imx258_lgit_common.so
 vendor/lib/libchromatix_imx258_lgit_cpp_hfr_120.so
 vendor/lib/libchromatix_imx258_lgit_cpp_hfr_60.so
 vendor/lib/libchromatix_imx258_lgit_cpp_liveshot.so
 vendor/lib/libchromatix_imx258_lgit_cpp_nzsl.so
 vendor/lib/libchromatix_imx258_lgit_cpp_preview.so
+vendor/lib/libchromatix_imx258_lgit_cpp_preview_binning.so
 vendor/lib/libchromatix_imx258_lgit_cpp_snapshot.so
+vendor/lib/libchromatix_imx258_lgit_cpp_snapshot_binning.so
 vendor/lib/libchromatix_imx258_lgit_cpp_video.so
 vendor/lib/libchromatix_imx258_lgit_cpp_video_4k.so
+vendor/lib/libchromatix_imx258_lgit_cpp_video_binning.so
 vendor/lib/libchromatix_imx258_lgit_default_preview_bu64244gwz.so
 vendor/lib/libchromatix_imx258_lgit_default_video.so
 vendor/lib/libchromatix_imx258_lgit_default_video_bu64244gwz.so
@@ -545,19 +565,27 @@ vendor/lib/libchromatix_imx258_lgit_panorama_preview.so
 vendor/lib/libchromatix_imx258_lgit_postproc.so
 vendor/lib/libchromatix_imx258_lgit_preview.so
 vendor/lib/libchromatix_imx258_lgit_snapshot.so
+vendor/lib/libchromatix_imx258_lgit_snapshot_binning.so
 vendor/lib/libchromatix_imx258_lgit_video_4k.so
+vendor/lib/libchromatix_imx258_lgit_video_binning.so
 vendor/lib/libchromatix_imx258_lgit_zsl_preview_bu64244gwz.so
 vendor/lib/libchromatix_imx258_lgit_zsl_video_bu64244gwz.so
 vendor/lib/libchromatix_imx258_mono_imtech_4k_preview_bu64244gwz.so
 vendor/lib/libchromatix_imx258_mono_imtech_4k_video_bu64244gwz.so
+vendor/lib/libchromatix_imx258_mono_imtech_binning_4k_3a.so
+vendor/lib/libchromatix_imx258_mono_imtech_binning_video_3a.so
+vendor/lib/libchromatix_imx258_mono_imtech_binning_zsl_3a.so
 vendor/lib/libchromatix_imx258_mono_imtech_common.so
 vendor/lib/libchromatix_imx258_mono_imtech_cpp_hfr_120.so
 vendor/lib/libchromatix_imx258_mono_imtech_cpp_hfr_60.so
 vendor/lib/libchromatix_imx258_mono_imtech_cpp_liveshot.so
 vendor/lib/libchromatix_imx258_mono_imtech_cpp_preview.so
+vendor/lib/libchromatix_imx258_mono_imtech_cpp_preview_binning.so
 vendor/lib/libchromatix_imx258_mono_imtech_cpp_snapshot.so
+vendor/lib/libchromatix_imx258_mono_imtech_cpp_snapshot_binning.so
 vendor/lib/libchromatix_imx258_mono_imtech_cpp_video.so
 vendor/lib/libchromatix_imx258_mono_imtech_cpp_video_4k.so
+vendor/lib/libchromatix_imx258_mono_imtech_cpp_video_binning.so
 vendor/lib/libchromatix_imx258_mono_imtech_default_preview_bu64244gwz.so
 vendor/lib/libchromatix_imx258_mono_imtech_default_video.so
 vendor/lib/libchromatix_imx258_mono_imtech_default_video_bu64244gwz.so
@@ -576,19 +604,27 @@ vendor/lib/libchromatix_imx258_mono_imtech_panorama_preview.so
 vendor/lib/libchromatix_imx258_mono_imtech_postproc.so
 vendor/lib/libchromatix_imx258_mono_imtech_preview.so
 vendor/lib/libchromatix_imx258_mono_imtech_snapshot.so
+vendor/lib/libchromatix_imx258_mono_imtech_snapshot_binning.so
 vendor/lib/libchromatix_imx258_mono_imtech_video_4k.so
+vendor/lib/libchromatix_imx258_mono_imtech_video_binning.so
 vendor/lib/libchromatix_imx258_mono_imtech_zsl_preview_bu64244gwz.so
 vendor/lib/libchromatix_imx258_mono_imtech_zsl_video_bu64244gwz.so
 vendor/lib/libchromatix_imx258_mono_lgit_4k_preview_bu64244gwz.so
 vendor/lib/libchromatix_imx258_mono_lgit_4k_video_bu64244gwz.so
+vendor/lib/libchromatix_imx258_mono_lgit_binning_4k_3a.so
+vendor/lib/libchromatix_imx258_mono_lgit_binning_video_3a.so
+vendor/lib/libchromatix_imx258_mono_lgit_binning_zsl_3a.so
 vendor/lib/libchromatix_imx258_mono_lgit_common.so
 vendor/lib/libchromatix_imx258_mono_lgit_cpp_hfr_120.so
 vendor/lib/libchromatix_imx258_mono_lgit_cpp_hfr_60.so
 vendor/lib/libchromatix_imx258_mono_lgit_cpp_liveshot.so
 vendor/lib/libchromatix_imx258_mono_lgit_cpp_preview.so
+vendor/lib/libchromatix_imx258_mono_lgit_cpp_preview_binning.so
 vendor/lib/libchromatix_imx258_mono_lgit_cpp_snapshot.so
+vendor/lib/libchromatix_imx258_mono_lgit_cpp_snapshot_binning.so
 vendor/lib/libchromatix_imx258_mono_lgit_cpp_video.so
 vendor/lib/libchromatix_imx258_mono_lgit_cpp_video_4k.so
+vendor/lib/libchromatix_imx258_mono_lgit_cpp_video_binning.so
 vendor/lib/libchromatix_imx258_mono_lgit_default_preview_bu64244gwz.so
 vendor/lib/libchromatix_imx258_mono_lgit_default_video.so
 vendor/lib/libchromatix_imx258_mono_lgit_default_video_bu64244gwz.so
@@ -607,7 +643,9 @@ vendor/lib/libchromatix_imx258_mono_lgit_panorama_preview.so
 vendor/lib/libchromatix_imx258_mono_lgit_postproc.so
 vendor/lib/libchromatix_imx258_mono_lgit_preview.so
 vendor/lib/libchromatix_imx258_mono_lgit_snapshot.so
+vendor/lib/libchromatix_imx258_mono_lgit_snapshot_binning.so
 vendor/lib/libchromatix_imx258_mono_lgit_video_4k.so
+vendor/lib/libchromatix_imx258_mono_lgit_video_binning.so
 vendor/lib/libchromatix_imx258_mono_lgit_zsl_preview_bu64244gwz.so
 vendor/lib/libchromatix_imx258_mono_lgit_zsl_video_bu64244gwz.so
 vendor/lib/libchromatix_s5k3m3_1080p_preview_ad5816g.so
@@ -629,46 +667,8 @@ vendor/lib/libchromatix_s5k3m3_preview.so
 vendor/lib/libchromatix_s5k3m3_snapshot.so
 vendor/lib/libchromatix_s5k3m3_zsl_preview_ad5816g.so
 vendor/lib/libchromatix_s5k3m3_zsl_video_ad5816g.so
-vendor/lib/libchromatix_hi553_cowell_cpp_face_unlock.so
-vendor/lib/libchromatix_hi553_cowell_face_unlock.so
-vendor/lib/libchromatix_hi553_cowell_face_unlock_preview.so
-vendor/lib/libchromatix_hi553_lgit_cpp_face_unlock.so
-vendor/lib/libchromatix_hi553_lgit_face_unlock.so
-vendor/lib/libchromatix_hi553_lgit_face_unlock_preview.so
-vendor/lib/libchromatix_imx258_imtech_binning_4k_3a.so
-vendor/lib/libchromatix_imx258_imtech_binning_video_3a.so
-vendor/lib/libchromatix_imx258_imtech_binning_zsl_3a.so
-vendor/lib/libchromatix_imx258_imtech_cpp_preview_binning.so
-vendor/lib/libchromatix_imx258_imtech_cpp_snapshot_binning.so
-vendor/lib/libchromatix_imx258_imtech_cpp_video_binning.so
-vendor/lib/libchromatix_imx258_imtech_snapshot_binning.so
-vendor/lib/libchromatix_imx258_imtech_video_binning.so
-vendor/lib/libchromatix_imx258_lgit_binning_4k_3a.so
-vendor/lib/libchromatix_imx258_lgit_binning_video_3a.so
-vendor/lib/libchromatix_imx258_lgit_binning_zsl_3a.so
-vendor/lib/libchromatix_imx258_lgit_cpp_preview_binning.so
-vendor/lib/libchromatix_imx258_lgit_cpp_snapshot_binning.so
-vendor/lib/libchromatix_imx258_lgit_cpp_video_binning.so
-vendor/lib/libchromatix_imx258_lgit_snapshot_binning.so
-vendor/lib/libchromatix_imx258_lgit_video_binning.so
-vendor/lib/libchromatix_imx258_mono_imtech_binning_4k_3a.so
-vendor/lib/libchromatix_imx258_mono_imtech_binning_video_3a.so
-vendor/lib/libchromatix_imx258_mono_imtech_binning_zsl_3a.so
-vendor/lib/libchromatix_imx258_mono_imtech_cpp_preview_binning.so
-vendor/lib/libchromatix_imx258_mono_imtech_cpp_snapshot_binning.so
-vendor/lib/libchromatix_imx258_mono_imtech_cpp_video_binning.so
-vendor/lib/libchromatix_imx258_mono_imtech_snapshot_binning.so
-vendor/lib/libchromatix_imx258_mono_imtech_video_binning.so
-vendor/lib/libchromatix_imx258_mono_lgit_binning_4k_3a.so
-vendor/lib/libchromatix_imx258_mono_lgit_binning_video_3a.so
-vendor/lib/libchromatix_imx258_mono_lgit_binning_zsl_3a.so
-vendor/lib/libchromatix_imx258_mono_lgit_cpp_preview_binning.so
-vendor/lib/libchromatix_imx258_mono_lgit_cpp_snapshot_binning.so
-vendor/lib/libchromatix_imx258_mono_lgit_cpp_video_binning.so
-vendor/lib/libchromatix_imx258_mono_lgit_snapshot_binning.so
-vendor/lib/libchromatix_imx258_mono_lgit_video_binning.so
 
-# Camera configs
+# Camera - Configs
 etc/camera/camera_config.xml:vendor/etc/camera/camera_config.xml
 etc/camera/hi553_cowell_chromatix.xml:vendor/etc/camera/hi553_cowell_chromatix.xml
 etc/camera/hi553_lgit_chromatix.xml:vendor/etc/camera/hi553_lgit_chromatix.xml
@@ -678,7 +678,7 @@ etc/camera/imx258_mono_imtech_chromatix.xml:vendor/etc/camera/imx258_mono_imtech
 etc/camera/imx258_mono_lgit_chromatix.xml:vendor/etc/camera/imx258_mono_lgit_chromatix.xml
 etc/camera/s5k3m3_chromatix.xml:vendor/etc/camera/s5k3m3_chromatix.xml
 
-# Camera Firmware
+# Camera - Firmware
 etc/camera/finger_detection/skintone_db.bin:vendor/etc/camera/finger_detection/skintone_db.bin
 etc/camera/food/1_food.dat:vendor/etc/camera/food/1_food.dat
 etc/camera/selfie/1_selfie.dat:vendor/etc/camera/selfie/1_selfie.dat
