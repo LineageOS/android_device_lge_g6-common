@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33abc0e2_c0da122e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-03-21T17:29:04Z",
+      "side": 1,
+      "message": "Pretty sure you don\u0027t need QTI blobs.",
+      "revId": "5f45f9ac036d8662942c72bf8632332846db265c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
