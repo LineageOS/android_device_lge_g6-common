@@ -698,15 +698,11 @@ vendor/lib/libdovi.so
 vendor/lib64/libdovi.so
 
 # Fingerprint
-vendor/bin/fpc_early_loader
+vendor/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
 -vendor/lib/hw/fingerprint.msm8996.so
-vendor/lib/lib_fpc_tac_shared.so
-vendor/lib/libfpfactory.so
-vendor/lib/libfpfactory_jni.so
+vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
 -vendor/lib64/hw/fingerprint.msm8996.so
-vendor/lib64/lib_fpc_tac_shared.so
-vendor/lib64/libfpfactory.so
-vendor/lib64/libfpfactory_jni.so
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # OIS firmware
 system/media/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data1.bin:vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data1.bin
@@ -730,3 +726,14 @@ system/media/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data2.bin:vendor/fir
 
 # Postprocessing
 vendor/etc/qdcm_calib_data_SW49408_1440_2880_cmd_mode_dsc_dsi_panel.xml
+
+# Sysnode
+vendor/framework/vendor.lge.hardware.sysnode-V1.0-java.jar
+vendor/lib/vendor.lge.hardware.sysnode@1.0.so
+vendor/lib64/vendor.lge.hardware.sysnode@1.0.so
+vendor/bin/hw/vendor.lge.hardware.sysnode@1.0-service
+vendor/etc/init/vendor.lge.hardware.sysnode-1.0-service.rc
+vendor/lib/hw/vendor.lge.hardware.sysnode@1.0-client.so
+vendor/lib/hw/vendor.lge.hardware.sysnode@1.0-impl.so
+vendor/lib64/hw/vendor.lge.hardware.sysnode@1.0-client.so
+vendor/lib64/hw/vendor.lge.hardware.sysnode@1.0-impl.so
