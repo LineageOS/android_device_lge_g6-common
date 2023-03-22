@@ -16,6 +16,24 @@
       "message": "Pretty sure you don\u0027t need QTI blobs.",
       "revId": "5f45f9ac036d8662942c72bf8632332846db265c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "60d12cd3_beeae862",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-03-22T02:17:26Z",
+      "side": 1,
+      "message": "Yeah, I held off on pushing these at all as I\u0027m trying to translate what is needed out of the mass kangbang that is current G6 tree\u0027s on any other ROM.\n\nProbably just gonna end up dependency hunting on my own.",
+      "parentUuid": "33abc0e2_c0da122e",
+      "revId": "5f45f9ac036d8662942c72bf8632332846db265c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
