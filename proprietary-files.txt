@@ -574,7 +574,6 @@ system/etc/camera/selfie/8_selfie.dat:vendor/etc/camera/selfie/8_selfie.dat
 system/etc/camera/selfie/9_selfie.dat:vendor/etc/camera/selfie/9_selfie.dat
 
 # Dolby Vision
--system/app/DolbyVisionService/DolbyVisionService.apk
 system/etc/dolby_vision.cfg
 system/lib/libdovi.so
 system/lib64/libdovi.so
