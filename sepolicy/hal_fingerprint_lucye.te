@@ -25,3 +25,5 @@ allow hal_fingerprint_lucye sysfs:file write;
 allow hal_fingerprint_lucye fingerprintd_data_file:dir { write search add_name remove_name };
 allow hal_fingerprint_lucye fingerprintd_data_file:file { open getattr unlink rename };
 allow hal_fingerprint_lucye system_data_file:dir { add_name write create };
+
+get_prop(hal_fingerprint_lucye, default_prop)
