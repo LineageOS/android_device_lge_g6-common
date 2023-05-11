@@ -1,5 +1,5 @@
-##  are from from lucye_kt_kr-user 9 PKQ1.190522.001 1929016322356 release-keys
 ### All blobs from this list, unless pinned and noted as otherwise,
+### are from from lucye_kt_kr-user 9 PKQ1.190522.001 1929016322356 release-keys
 
 # Audio - ACBD
 vendor/etc/acdbdata/plus/Bluetooth_cal.acdb
