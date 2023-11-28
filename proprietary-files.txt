@@ -2,13 +2,6 @@
 ### are from from lucye_kt_kr-user 9 PKQ1.190522.001 1929016322356 release-keys
 
 # Audio - ACBD
-vendor/etc/acdbdata/plus/Bluetooth_cal.acdb
-vendor/etc/acdbdata/plus/General_cal.acdb
-vendor/etc/acdbdata/plus/Global_cal.acdb
-vendor/etc/acdbdata/plus/Handset_cal.acdb
-vendor/etc/acdbdata/plus/Hdmi_cal.acdb
-vendor/etc/acdbdata/plus/Headset_cal.acdb
-vendor/etc/acdbdata/plus/Speaker_cal.acdb
 vendor/etc/acdbdata/Bluetooth_cal.acdb
 vendor/etc/acdbdata/General_cal.acdb
 vendor/etc/acdbdata/Global_cal.acdb
@@ -16,6 +9,13 @@ vendor/etc/acdbdata/Handset_cal.acdb
 vendor/etc/acdbdata/Hdmi_cal.acdb
 vendor/etc/acdbdata/Headset_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
+vendor/etc/acdbdata/plus/Bluetooth_cal.acdb
+vendor/etc/acdbdata/plus/General_cal.acdb
+vendor/etc/acdbdata/plus/Global_cal.acdb
+vendor/etc/acdbdata/plus/Handset_cal.acdb
+vendor/etc/acdbdata/plus/Hdmi_cal.acdb
+vendor/etc/acdbdata/plus/Headset_cal.acdb
+vendor/etc/acdbdata/plus/Speaker_cal.acdb
 
 # Camera
 system/lib/libAutoContrast.so:vendor/lib/libAutoContrast.so
