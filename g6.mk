@@ -46,7 +46,8 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.lucye
+    android.hardware.biometrics.fingerprint@2.1-service.lge \
+    lucye_fingerprint.rc
 
 # HDR
 PRODUCT_COPY_FILES += \
