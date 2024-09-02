@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "88be5b35_b75283d4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-09-02T00:43:47Z",
+      "side": 1,
+      "message": "or we import hardware/lge\u0027s sepolicy?",
+      "revId": "f6748f5469a96b7373d08ccedbc80721c5fa5010",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
