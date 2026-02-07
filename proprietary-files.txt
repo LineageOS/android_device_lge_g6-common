@@ -126,7 +126,6 @@ vendor/bin/mm-qcamera-daemon
 -vendor/lib/libmmcamera_pdafcamif.so;DISABLE_DEPS
 -vendor/lib/libmmcamera_ppbase_module.so;DISABLE_DEPS
 -vendor/lib/libmmcamera_ppeiscore.so;DISABLE_DEPS
--vendor/lib/libmmcamera_quadracfa.so;DISABLE_DEPS
 -vendor/lib/libmmcamera_s5k3m3.so;DISABLE_DEPS
 -vendor/lib/libmmcamera_sw2d_lib.so;DISABLE_DEPS
 -vendor/lib/libmmcamera_thread_services.so;DISABLE_DEPS
@@ -144,7 +143,6 @@ vendor/bin/mm-qcamera-daemon
 -vendor/lib/libqomx_jpegdec.so;DISABLE_DEPS
 -vendor/lib/libqomx_jpegenc.so;DISABLE_DEPS
 -vendor/lib/libqomx_jpegenc_pipe.so;DISABLE_DEPS
--vendor/lib/libremosaic_daemon.so;DISABLE_DEPS
 -vendor/lib/libsymphony-1.1.1.so;DISABLE_DEPS
 -vendor/lib/libsymphonypower-1.1.1.so;DISABLE_DEPS
 -vendor/lib64/libmmcamera2_frame_algorithm.so;DISABLE_DEPS
