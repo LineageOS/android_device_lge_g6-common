@@ -126,7 +126,6 @@ vendor/lib/libmmcamera_pdaf.so
 vendor/lib/libmmcamera_pdafcamif.so
 vendor/lib/libmmcamera_ppbase_module.so
 vendor/lib/libmmcamera_ppeiscore.so
-vendor/lib/libmmcamera_quadracfa.so
 vendor/lib/libmmcamera_s5k3m3.so
 vendor/lib/libmmcamera_sw2d_lib.so
 vendor/lib/libmmcamera_thread_services.so
@@ -144,7 +143,6 @@ vendor/lib/libqomx_core.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
-vendor/lib/libremosaic_daemon.so
 vendor/lib/libsymphony-1.1.1.so
 vendor/lib/libsymphonypower-1.1.1.so
 vendor/lib64/libmmcamera2_frame_algorithm.so
