@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "114734bb_fb0c7f9c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-02-08T23:36:31Z",
+      "side": 1,
+      "message": "This uses patchelf 0.9, which we can\u0027t, do it in extract-files.sh by hand instead.",
+      "revId": "020346423b254e67416dc89fa9945537fa07740f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
