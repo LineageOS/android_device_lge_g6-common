@@ -1,3 +1,12 @@
+service vendor.fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.lucye
+    # "class hal" causes a race condition on some devices due to files created
+    # in /data. As a workaround, postpone startup until later in boot once
+    # /data is mounted.
+    class late_start
+    user system
+    group system input uhid
+    writepid /dev/cpuset/system-background/tasks
+
 on boot
     # Fingerprints
     chown system input /sys/devices/virtual/input/lge_fingerprint/testmode
@@ -41,3 +50,4 @@ on post-fs-data
     mkdir /data/vendor/misc/qti_fp/bg_estimation 0770 system system
     mkdir /data/vendor/misc/qti_fp/calib_test 0770 system system
     mkdir /data/vendor/misc/qti_fp/database 0770 system system
+    
