@@ -1,2 +1,1 @@
 type hal_fingerprint_lucye_service, service_manager_type;
-type lge_unified_settings_service, service_manager_type;
