@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(filter g6 h870 h870d h872 us997,$(TARGET_DEVICE)),)
+ifneq ($(filter g6 h870 h870d h872 h873 us997,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
